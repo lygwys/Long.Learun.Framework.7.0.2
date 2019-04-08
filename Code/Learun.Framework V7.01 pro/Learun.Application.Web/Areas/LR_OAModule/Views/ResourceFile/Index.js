@@ -139,7 +139,7 @@ var bootstrap = function ($, learun) {
                 if (keyValue) {
                     learun.layerConfirm("注：您确定要共享此" + (fileType == "folder" ? "文件夹" : "文件") + "吗？", function (res) {
                         if (res) {
-                            learun.warning(top.$.rootUrl + '/LR_OAModule/ResourceFile/ShareFile', { keyValue: keyValue, IsShare: 1, fileType: fileType }, function () {
+                            learun.deleteForm(top.$.rootUrl + '/LR_OAModule/ResourceFile/ShareFile', { keyValue: keyValue, IsShare: 1, fileType: fileType }, function () {
                                 refreshGirdData();
                             });
                         }
