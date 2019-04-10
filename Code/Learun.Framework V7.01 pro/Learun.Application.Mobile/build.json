@@ -1,11 +1,11 @@
 {
-     "android": {
-         "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
-             "keystoreType": ""
-         }
-     }
- }
+  "android": {
+    "release": {
+      "keystore": "c:\\dev\\lygwys.android.keystore",
+      "storePassword": "8852089",
+      "alias": "lygwys.android.keystore",
+      "password": "8852089",
+      "keystoreType": ""
+    }
+  }
+}

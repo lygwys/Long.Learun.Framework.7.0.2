@@ -587,7 +587,7 @@ namespace Learun.Application.Organization
             {
                 if (ex is ExceptionEx)
                 {
-                    throw;
+                     throw;
                 }
                 else
                 {

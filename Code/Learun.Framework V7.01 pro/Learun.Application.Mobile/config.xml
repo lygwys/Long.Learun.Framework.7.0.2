@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.learun.adms" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="zh-CN">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.learun.adms" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="zh-CN" android-versionCode="18">
   <name>力软-敏捷框架</name>
   <description>使用 Apache Cordova 帮助生成面向 Android、iOS 和 Windows Universal Platform 等多个移动平台的应用的空白项目。</description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">力软移动开发组</author>
@@ -119,4 +119,8 @@
   <plugin name="phonegap-plugin-barcodescanner" spec="~6.0.8" src="C:\work\project\learun.ui\cordova-plugin\phonegap-plugin-barcodescanner" />
   <plugin name="cordova-plugin-http" spec="~1.2.0" />
   <plugin name="cordova-plugin-photo-library" spec="~2.1.1" />
+  <preference name="android-targetSdkVersion" value="18" />
+  <preference name="ShowTitle" value="True" />
+  <preference name="android-maxSdkVersion" value="23" />
+  <preference name="android-minSdkVersion" value="15" />
 </widget>
